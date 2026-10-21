@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo-icon.png" />
+    <link rel="apple-touch-icon" href="/logo-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>SEHAT-KRISHI AI — Smart Farming. Healthy Crops. Better Decisions.</title>
+    <meta name="description" content="SEHAT-KRISHI AI is a premier agricultural AI platform for Indian farmers, offering real-time AI farming advice, crop disease diagnosis, weather alerts, live mandi prices, soil health calculators, and verified government schemes." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      // When opened via file:/// (e.g. double clicking index.html in Windows Explorer)
+      if (window.location.protocol === 'file:') {
+        // Instantly navigate to running server
+        window.location.replace('http://localhost:5173');
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Fallback Smart Launcher if opened via file:// -->
+    <div id="file-launcher-fallback" style="display:none;min-height:100vh;background:#F0FDF4;font-family:'Outfit','Inter',sans-serif;color:#14532D;padding:24px;box-sizing:border-box;align-items:center;justify-content:center;">
+      <div style="max-width:520px;width:100%;background:#ffffff;border-radius:24px;padding:32px 24px;box-shadow:0 12px 36px rgba(22,101,52,0.12);border:1px solid #DCFCE7;text-align:center;box-sizing:border-box;">
+        <div style="width:64px;height:64px;background:#DCFCE7;color:#166534;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:32px;margin-bottom:16px;">🌾</div>
+        <h1 style="font-size:1.75rem;margin:0 0 8px 0;color:#166534;font-weight:800;">SEHAT-KRISHI AI</h1>
+        <p style="font-size:0.95rem;color:#4B5563;margin:0 0 20px 0;line-height:1.5;">
+          App ko open karne ke liye niche diye button par click karein:
+        </p>
+        <a href="http://localhost:5173" style="display:flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,#22C55E,#166534);color:#ffffff;text-decoration:none;padding:14px 20px;border-radius:14px;font-size:1.05rem;font-weight:700;margin-bottom:14px;box-shadow:0 4px 14px rgba(34,197,94,0.3);">
+          <span>🚀</span> Open SEHAT-KRISHI App (PC)
+        </a>
+        <a href="http://192.168.2.112:5173" style="display:flex;align-items:center;justify-content:center;gap:10px;background:#EFF6FF;color:#1D4ED8;text-decoration:none;padding:12px 20px;border-radius:12px;font-size:0.92rem;font-weight:600;margin-bottom:20px;border:1px solid #BFDBFE;">
+          <span>📱</span> Mobile Link: http://192.168.2.112:5173
+        </a>
+        <div style="background:#F8FAF9;border-radius:12px;padding:14px;font-size:0.82rem;color:#647067;text-align:left;line-height:1.5;border:1px solid #E1EAE2;">
+          <strong style="color:#166534;">📱 Phone me chalane ke liye:</strong><br/>
+          Aapka phone aur computer same Wi-Fi par connect hona chahiye. Phone ke browser (Chrome) me upar diya gaya mobile link enter karein.
+        </div>
+      </div>
+    </div>
+    <script>
+      if (window.location.protocol === 'file:') {
+        setTimeout(function() {
+          var fb = document.getElementById('file-launcher-fallback');
+          if (fb) fb.style.display = 'flex';
+        }, 1200);
+      }
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

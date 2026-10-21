@@ -1,0 +1,43 @@
+{
+  "users": [],
+  "farmProfiles": [],
+  "savedAdvice": [],
+  "feedback": [],
+  "customMandiPrices": [
+    {
+      "id": "mandi_custom_1791955326119",
+      "commodity": "Cumin (Jeera)",
+      "variety": "Special Quality",
+      "mandi": "Gondal APMC",
+      "district": "Rajkot",
+      "state": "Gujarat",
+      "minPrice": 26000,
+      "maxPrice": 30500,
+      "modalPrice": 28400,
+      "arrivals": "400 Bags",
+      "trend": "up",
+      "arrivalDate": "2026-10-14",
+      "unit": "₹ / Quintal",
+      "source": "APMC Market Intelligence / Admin Verified",
+      "lastVerified": "2026-10-14"
+    }
+  ],
+  "apiSettings": {
+    "geminiApiKey": "AQ.Ab8RN6LFDVBCx2XcL2XJEXS7MKJBB5Tjl_D9Z7Qcl-iIcTpVxw",
+    "defaultModel": "gemini-2.5-flash",
+    "temperature": 0.25,
+    "maxTokens": 2048,
+    "systemPromptMode": "Strict ICAR Grounding"
+  },
+  "activeAdvisory": {
+    "title": "October Transition Advisory (Kharif Harvesting & Rabi Sowing)",
+    "summary": "Seasonal conditions are optimal for cotton picking in dry afternoon hours. Sundry harvested groundnut below 9% moisture. Initiate pre-sowing irrigation (Palewa) for timely wheat and mustard sowing.",
+    "broadcastDate": "2026-10-14",
+    "status": "Active"
+  },
+  "adminCredentials": {
+    "username": "admin",
+    "password": "admin@123",
+    "updatedAt": "2026-10-21T04:35:32.974Z"
+  }
+}
